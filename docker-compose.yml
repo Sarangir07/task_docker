@@ -1,0 +1,13 @@
+services:
+
+  backend:
+    image: task-manager-backend:latest
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    image: task-manager-frontend:latest
+    ports:
+      - "3000:80"
