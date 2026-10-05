@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 // Base URL of our Express backend
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "http://3.88.229.217:5000/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);   // list of tasks from the DB
